@@ -1,0 +1,163 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\GUI1\CMB_BatchProcessing.prj" location="D:\GUI1" name="CMB_BatchProcessing" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>CMB_BatchProcessing</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\CMB_BatchProcessing\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\CMB_BatchProcessing\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\CMB_BatchProcessing\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\CMB_BatchProcessing\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\CMB_BatchProcessing</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\CMB_BatchProcessing.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\biaoqianzhushou.fig</file>
+      <file>${PROJECT_ROOT}\biaoqianzhushou.m</file>
+      <file>${PROJECT_ROOT}\CMB_BatchProcessing.fig</file>
+      <file>${PROJECT_ROOT}\CMB_BatchProcessing.m</file>
+      <file>${PROJECT_ROOT}\CMB_BatchProcessing.prj</file>
+      <file>${PROJECT_ROOT}\CommonAlgorithm</file>
+      <file>${PROJECT_ROOT}\DicomSeriesRead.m</file>
+      <file>${PROJECT_ROOT}\im3scan.m</file>
+      <file>${PROJECT_ROOT}\im3vec.m</file>
+      <file>${PROJECT_ROOT}\jinggaotishi.fig</file>
+      <file>${PROJECT_ROOT}\jinggaotishi.m</file>
+      <file>${PROJECT_ROOT}\libsvm-3.22</file>
+      <file>${PROJECT_ROOT}\net.mat</file>
+      <file>${PROJECT_ROOT}\Scale_normalization.m</file>
+      <file>${PROJECT_ROOT}\wuxiaolujing.fig</file>
+      <file>${PROJECT_ROOT}\wuxiaolujing.m</file>
+      <file>${PROJECT_ROOT}\xiugaichenggong.fig</file>
+      <file>${PROJECT_ROOT}\xiugaichenggong.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\CMB_BatchProcessing\for_testing" name="CMB_BatchProcessing.exe" optional="false">D:\GUI1\CMB_BatchProcessing\for_testing\CMB_BatchProcessing.exe</file>
+      <file location="${PROJECT_ROOT}\CMB_BatchProcessing\for_testing" name="splash.png" optional="false">D:\GUI1\CMB_BatchProcessing\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\CMB_BatchProcessing\for_testing" name="readme.txt" optional="true">D:\GUI1\CMB_BatchProcessing\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\matlab2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
