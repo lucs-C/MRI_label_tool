@@ -6,7 +6,7 @@ MRI病灶区域标记辅助工具GUI源码
 准备工作：
 
 SWI数据存储格式：
-![image](https://github.com/lucs-C/MRI_label_tool/tree/master/Read_me/图片1.png)
+![image] (https://github.com/lucs-C/MRI_label_tool/blob/master/Read_me/图片1.png)
 
 安装说明：
 
